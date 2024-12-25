@@ -1,0 +1,45 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.image-search {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+.image-search input {
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.image-search button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.image-item img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
